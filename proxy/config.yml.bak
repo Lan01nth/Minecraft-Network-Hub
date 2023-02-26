@@ -1,0 +1,46 @@
+prevent_proxy_connections: false
+listeners:
+- query_port: 25565
+  motd: ''
+  tab_list: SERVER
+  query_enabled: false
+  proxy_protocol: false
+  forced_hosts:
+    pvp.md-5.net: pvp
+  ping_passthrough: false
+  priorities:
+  - Hub
+  bind_local_address: true
+  host: 0.0.0.0:25565
+  max_players: 500
+  tab_size: 60
+  force_default_server: true
+remote_ping_cache: -1
+network_compression_threshold: 256
+permissions:
+  default: null
+  Founder:
+  - bungeecord.command.alert
+  - bungeecord.command.list
+log_pings: true
+connection_throttle_limit: 3
+server_connect_timeout: 5000
+timeout: 30000
+player_limit: 500
+ip_forward: false
+groups:
+  SosaaaJ:
+  - founder
+remote_ping_timeout: 5000
+connection_throttle: 4000
+log_commands: false
+stats: e29c5f22-1ce5-4df8-999d-db91c6219f5e
+online_mode: false
+forge_support: true
+disabled_commands:
+- server
+servers:
+  Hub:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: localhost:25566
+    restricted: false

@@ -1,0 +1,17 @@
+#date must be in this format "MM/dd/yy HH:mm:ss". The hour must be on a 24h clock. So if you wanted to do 5 PM,
+#you would put hour 17.
+date: '05/20/16 17:00:00'
+#Use this list: https://publib.boulder.ibm.com/tividd/td/TWS/SC32-1274-02/en_US/HTML/SRF_mst273.htm
+timezone: 'CST'
+#Use %newline to start a second line. Use %time for the time.
+motd: '&a&lNetwork de Regalo! &7- youtube.com/c/ikl4b_ %newline &eSuscribete a mi canal'
+#This string will be displayed when the time hits 0
+time-value-end: '&cThe game is live, join now!'
+#set max slots
+slots: 500
+#command to be run when the countdown ends
+command-finish: 'whitelist off'
+#change type of clock, either 1 or 2 accepted.
+#1 is word format: 1 day, 2 hours, 30 minutes
+#2 is digital clock format: d:h:m:s
+clock-type: 1

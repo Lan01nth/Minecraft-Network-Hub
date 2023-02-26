@@ -1,0 +1,135 @@
+[21:03:48] [main/INFO]: Using standard Java JCE cipher.
+[21:03:48] [main/INFO]: Using standard Java compressor.
+[21:03:48] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:ba3bbcc:483
+[21:03:48] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+[21:03:48] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+[21:03:48] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+[21:03:48] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+[21:03:48] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+[21:03:48] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+[21:03:48] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:ba3bbcc:483 by WaterfallMC
+[21:03:48] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:ba3bbcc:483 by WaterfallMC
+[21:03:48] [main/INFO]: Loaded plugin BungeeHub version 1.1 by Inkzzz
+[21:03:48] [main/INFO]: Loaded plugin SkinsRestorer version 14.1.15 by Th3Tr0LLeR, McLive, DoNotSpamPls, knat, AlexProgrammerDE
+[21:03:48] [main/INFO]: Loaded plugin BungeeKick version 1.2 by Vik1395
+[21:03:48] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:ba3bbcc:483 by WaterfallMC
+[21:03:48] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:ba3bbcc:483 by WaterfallMC
+[21:03:48] [main/INFO]: Loaded plugin MOTDCountdown version 1.0 by Tr3xEmpire
+[21:03:48] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:ba3bbcc:483 by WaterfallMC
+[21:03:48] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:ba3bbcc:483 by WaterfallMC
+[21:03:49] [main/WARN]: Forced host server pvp is not defined
+[21:03:49] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:ba3bbcc:483 by WaterfallMC
+[21:03:49] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:ba3bbcc:483 by WaterfallMC
+[21:03:49] [main/INFO]: Enabled plugin BungeeHub version 1.1 by Inkzzz
+[21:03:49] [main/INFO]: Enabled plugin SkinsRestorer version 14.1.15 by Th3Tr0LLeR, McLive, DoNotSpamPls, knat, AlexProgrammerDE
+[21:03:50] [main/INFO]: Enabled plugin BungeeKick version 1.2 by Vik1395
+[21:03:50] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:ba3bbcc:483 by WaterfallMC
+[21:03:50] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:ba3bbcc:483 by WaterfallMC
+[21:03:50] [main/INFO]: Enabled plugin MOTDCountdown version 1.0 by Tr3xEmpire
+[21:03:50] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:ba3bbcc:483 by WaterfallMC
+[21:03:50] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:ba3bbcc:483 by WaterfallMC
+[21:03:50] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25565
+[21:03:51] [SkinsRestorer Pool Thread #0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[21:03:51] [SkinsRestorer Pool Thread #0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[21:03:51] [SkinsRestorer Pool Thread #0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[21:03:51] [SkinsRestorer Pool Thread #0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[21:03:51] [SkinsRestorer Pool Thread #0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[21:03:51] [SkinsRestorer Pool Thread #0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[21:03:51] [SkinsRestorer Pool Thread #0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [31;1m14.1.15[0;39m
+[21:03:51] [SkinsRestorer Pool Thread #0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    New version: [31;1m14.2.8[0;39m
+[21:03:51] [SkinsRestorer Pool Thread #0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m    A new version is available! Download it at:[0;39m
+[21:03:51] [SkinsRestorer Pool Thread #0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1m    https://github.com/SkinsRestorer/SkinsRestorerX/releases/download/14.2.8/SkinsRestorer.jar[0;39m
+[21:03:51] [SkinsRestorer Pool Thread #0/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[21:05:05] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:61794] <-> InitialHandler has pinged
+[21:06:26] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:61647] <-> InitialHandler has pinged
+[21:06:29] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:61652] <-> InitialHandler has connected
+[21:06:33] [Netty Worker IO Thread #2/ERROR]: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:25566
+[21:06:33] [Netty Worker IO Thread #2/ERROR]: Caused by: java.net.ConnectException: Connection refused: no further information
+[21:06:33] [Netty Worker IO Thread #2/ERROR]: 	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+[21:06:33] [Netty Worker IO Thread #2/ERROR]: 	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+[21:06:33] [Netty Worker IO Thread #2/ERROR]: 	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+[21:06:33] [Netty Worker IO Thread #2/ERROR]: 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+[21:06:33] [Netty Worker IO Thread #2/ERROR]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+[21:06:33] [Netty Worker IO Thread #2/ERROR]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+[21:06:33] [Netty Worker IO Thread #2/ERROR]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+[21:06:33] [Netty Worker IO Thread #2/ERROR]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+[21:06:33] [Netty Worker IO Thread #2/ERROR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+[21:06:33] [Netty Worker IO Thread #2/ERROR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[21:06:33] [Netty Worker IO Thread #2/ERROR]: 	at java.lang.Thread.run(Unknown Source)
+[21:06:33] [Netty Worker IO Thread #2/INFO]: [Lan_hq] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[21:06:33] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:61652|Lan_hq] -> UpstreamBridge has disconnected
+[21:06:41] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:61655] <-> InitialHandler has connected
+[21:06:43] [Netty Worker IO Thread #3/ERROR]: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:25566
+[21:06:43] [Netty Worker IO Thread #3/ERROR]: Caused by: java.net.ConnectException: Connection refused: no further information
+[21:06:43] [Netty Worker IO Thread #3/ERROR]: 	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+[21:06:43] [Netty Worker IO Thread #3/ERROR]: 	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+[21:06:43] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+[21:06:43] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+[21:06:43] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+[21:06:43] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+[21:06:43] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+[21:06:43] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+[21:06:43] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+[21:06:43] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[21:06:43] [Netty Worker IO Thread #3/ERROR]: 	at java.lang.Thread.run(Unknown Source)
+[21:06:43] [Netty Worker IO Thread #3/INFO]: [Lan_hq] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[21:06:43] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:61655|Lan_hq] -> UpstreamBridge has disconnected
+[21:06:54] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:61661] <-> InitialHandler has pinged
+[21:07:14] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:65291] <-> InitialHandler has pinged
+[21:07:17] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:65299] <-> InitialHandler has connected
+[21:07:19] [Netty Worker IO Thread #2/ERROR]: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:25566
+[21:07:19] [Netty Worker IO Thread #2/ERROR]: Caused by: java.net.ConnectException: Connection refused: no further information
+[21:07:19] [Netty Worker IO Thread #2/ERROR]: 	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+[21:07:19] [Netty Worker IO Thread #2/ERROR]: 	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+[21:07:19] [Netty Worker IO Thread #2/ERROR]: 	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+[21:07:19] [Netty Worker IO Thread #2/ERROR]: 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+[21:07:19] [Netty Worker IO Thread #2/ERROR]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+[21:07:19] [Netty Worker IO Thread #2/ERROR]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+[21:07:19] [Netty Worker IO Thread #2/ERROR]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+[21:07:19] [Netty Worker IO Thread #2/ERROR]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+[21:07:19] [Netty Worker IO Thread #2/ERROR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+[21:07:19] [Netty Worker IO Thread #2/ERROR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[21:07:19] [Netty Worker IO Thread #2/ERROR]: 	at java.lang.Thread.run(Unknown Source)
+[21:07:19] [Netty Worker IO Thread #2/INFO]: [Lan_hq] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[21:07:19] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:65299|Lan_hq] -> UpstreamBridge has disconnected
+[21:10:15] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:57834] <-> InitialHandler has connected
+[21:10:15] [Netty Worker IO Thread #3/INFO]: [Lan_hq|/127.0.0.1:57834] <-> ServerConnector [Hub] has connected
+[21:10:34] [Netty Worker IO Thread #3/ERROR]: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:25567
+[21:10:34] [Netty Worker IO Thread #3/ERROR]: Caused by: java.net.ConnectException: Connection refused: no further information
+[21:10:34] [Netty Worker IO Thread #3/ERROR]: 	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+[21:10:34] [Netty Worker IO Thread #3/ERROR]: 	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+[21:10:34] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+[21:10:34] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+[21:10:34] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+[21:10:34] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+[21:10:34] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+[21:10:34] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+[21:10:34] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+[21:10:34] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[21:10:34] [Netty Worker IO Thread #3/ERROR]: 	at java.lang.Thread.run(Unknown Source)
+[21:11:05] [Netty Worker IO Thread #3/ERROR]: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:25567
+[21:11:05] [Netty Worker IO Thread #3/ERROR]: Caused by: java.net.ConnectException: Connection refused: no further information
+[21:11:05] [Netty Worker IO Thread #3/ERROR]: 	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+[21:11:05] [Netty Worker IO Thread #3/ERROR]: 	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+[21:11:05] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+[21:11:05] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+[21:11:05] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+[21:11:05] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+[21:11:05] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+[21:11:05] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+[21:11:05] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+[21:11:05] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[21:11:05] [Netty Worker IO Thread #3/ERROR]: 	at java.lang.Thread.run(Unknown Source)
+[21:12:23] [Netty Worker IO Thread #3/ERROR]: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:25567
+[21:12:23] [Netty Worker IO Thread #3/ERROR]: Caused by: java.net.ConnectException: Connection refused: no further information
+[21:12:23] [Netty Worker IO Thread #3/ERROR]: 	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+[21:12:23] [Netty Worker IO Thread #3/ERROR]: 	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+[21:12:23] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+[21:12:23] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+[21:12:23] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+[21:12:23] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+[21:12:23] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+[21:12:23] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+[21:12:23] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+[21:12:23] [Netty Worker IO Thread #3/ERROR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[21:12:23] [Netty Worker IO Thread #3/ERROR]: 	at java.lang.Thread.run(Unknown Source)
