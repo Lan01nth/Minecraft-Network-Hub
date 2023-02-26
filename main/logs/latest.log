@@ -1,0 +1,208 @@
+[21:09:50] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[21:09:50] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[21:09:50] [Server thread/INFO]: Loading properties
+[21:09:50] [Server thread/INFO]: Default game type: SURVIVAL
+[21:09:51] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[21:09:51] [Server thread/INFO]: Debug logging is disabled
+[21:09:51] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[21:09:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:09:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:09:51] [Server thread/INFO]: Data value allowed items: 
+[21:09:51] [Server thread/INFO]: Generating keypair
+[21:09:51] [Server thread/INFO]: Starting Minecraft server on *:25566
+[21:09:51] [Server thread/INFO]: Using default channel type
+[21:09:51] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[21:09:52] [Server thread/ERROR]: Could not load 'plugins\DeluxeMenus-1.13.5-Release.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: com/extendedclip/deluxemenus/DeluxeMenus has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:331) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:254) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_351]
+Caused by: java.lang.UnsupportedClassVersionError: com/extendedclip/deluxemenus/DeluxeMenus has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_351]
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:1.8.0_351]
+	at java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:1.8.0_351]
+	at java.net.URLClassLoader.defineClass(Unknown Source) ~[?:1.8.0_351]
+	at java.net.URLClassLoader.access$100(Unknown Source) ~[?:1.8.0_351]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[?:1.8.0_351]
+	at java.net.URLClassLoader$1.run(Unknown Source) ~[?:1.8.0_351]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_351]
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_351]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:102) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_351]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_351]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_351]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_351]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 6 more
+[21:09:52] [Server thread/INFO]: [DoubleJump] Loading DoubleJump v1.8
+[21:09:52] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.1
+[21:09:52] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[21:09:52] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[21:09:52] [Server thread/INFO]: [DisableJoinMessage] Loading DisableJoinMessage v1.0
+[21:09:52] [Server thread/INFO]: [PlayerVisibilityReborn] Loading PlayerVisibilityReborn v1.0.0-RELEASE
+[21:09:52] [Server thread/INFO]: [EasySetSpawn] Loading EasySetSpawn v3.3
+[21:09:52] [Server thread/INFO]: [NametagEdit] Loading NametagEdit v4.2.0
+[21:09:52] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[21:09:52] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.8.0
+[21:09:53] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.29-SNAPSHOT (build 2506)
+[21:09:53] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.4
+[21:09:53] [Server thread/INFO]: [Scoreboard-revision] Loading Scoreboard-revision vR4 1.1 RELEASE
+[21:09:53] [Server thread/INFO]: [Command Blocker] Loading TreysCommandBlocker v1.1.1
+[21:09:53] [Server thread/INFO]: [ItemJoin] Loading ItemJoin v5.2.3-RELEASE-b789
+[21:09:53] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.9
+[21:09:53] [Server thread/INFO]: [DeluxeChat] Loading DeluxeChat v1.16.2
+[21:09:53] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[21:09:53] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[21:09:53] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[21:09:53] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:09:53] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[21:09:53] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[21:09:53] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.8.0
+[21:09:53] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[21:09:53] [Server thread/INFO]: [ItemJoin] Enabling ItemJoin v5.2.3-RELEASE-b789
+[21:09:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:09:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:09:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:09:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:09:54] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[21:09:54] [Server thread/INFO]: Preparing level "world"
+[21:09:54] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:09:54] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:09:54] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:09:54] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:09:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:09:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:09:54] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:09:54] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[21:09:54] [Server thread/INFO]: Clear tick list: false
+[21:09:54] [Server thread/INFO]: View Distance: 10
+[21:09:54] [Server thread/INFO]: Max Entity Collisions: 8
+[21:09:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[21:09:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:09:54] [Server thread/INFO]: Mob Spawn Range: 4
+[21:09:54] [Server thread/INFO]: Max TNT Explosions: 100
+[21:09:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:09:54] [Server thread/INFO]: Anti X-Ray: true
+[21:09:54] [Server thread/INFO]: 	Engine Mode: 1
+[21:09:54] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[21:09:54] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[21:09:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:09:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:09:54] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:09:54] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:09:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:09:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:09:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:09:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:09:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:09:54] [Server thread/INFO]: Random Lighting Updates: false
+[21:09:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:09:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[21:09:54] [Server thread/INFO]: Structure Info Saving: true
+[21:09:54] [Server thread/INFO]: Sending up to 10 chunks per packet
+[21:09:54] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:09:54] [Server thread/INFO]: Fix TNT cannons: false
+[21:09:54] [Server thread/INFO]: Water over lava flow speed: 5
+[21:09:54] [Server thread/INFO]: Keep spawn chunk loaded: true
+[21:09:54] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[21:09:54] [Server thread/INFO]: World async lighting: false
+[21:09:54] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[21:09:54] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[21:09:54] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[21:09:54] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[21:09:54] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[21:09:54] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[21:09:54] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[21:09:54] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3412228564512441243)
+[21:09:55] [Server thread/INFO]: Preparing spawn area: 49%
+[21:09:55] [Server thread/INFO]: [DoubleJump] Enabling DoubleJump v1.8
+[21:09:55] [Server thread/INFO]: [0;31;1m[21m[DoubleJump] [0;32;1mStarting up & loading plugin data.[m
+[21:09:55] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.1
+[21:09:56] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[21:09:56] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[21:09:56] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[21:09:56] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[21:09:56] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[21:09:56] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[21:09:56] [Server thread/INFO]: [DisableJoinMessage] Enabling DisableJoinMessage v1.0
+[21:09:56] [Server thread/INFO]: §c===================================
+[21:09:56] [Server thread/INFO]: §c===================================
+[21:09:56] [Server thread/INFO]: §aCheck out my other Plugins!
+[21:09:56] [Server thread/INFO]: §aI also sell a BedWars §aPlugin!
+[21:09:56] [Server thread/INFO]: §c===================================
+[21:09:56] [Server thread/INFO]: §c===================================
+[21:09:56] [Server thread/INFO]: [PlayerVisibilityReborn] Enabling PlayerVisibilityReborn v1.0.0-RELEASE
+[21:09:56] [Server thread/WARN]: [PlayerVisibilityReborn] Default system encoding may have misread config.yml from plugin jar
+[21:09:56] [Server thread/INFO]: [0;36;1m=-=-=-=-=-=-=-=-=[m
+[21:09:56] [Server thread/INFO]: [0;30;1m[[0;33;22mPlayerVisibilityReborn[0;30;1m] [0;32;22mversion [0;31;22m1.0.0-RELEASE [0;32;22mby xDesireRage has been enabled![m
+[21:09:56] [Server thread/INFO]: [0;36;1m=-=-=-=-=-=-=-=-=[m
+[21:09:56] [Server thread/INFO]: [EasySetSpawn] Enabling EasySetSpawn v3.3
+[21:09:56] [Server thread/INFO]: [EasySetSpawn] Enabled!
+[21:09:56] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.2.0
+[21:09:56] [Server thread/INFO]: [NametagEdit] Found PermissionsEx! Hooking in.
+[21:09:56] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.29-SNAPSHOT (build 2506)
+[21:09:57] [Thread-7/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[21:09:57] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.4
+[21:09:58] [Server thread/INFO]: [Essentials] You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[21:09:58] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[21:09:58] [Server thread/INFO]: No kits found to migrate.
+[21:09:58] [Server thread/INFO]: Loaded 853 items from items.csv.
+[21:09:58] [Server thread/INFO]: Using locale es_CO
+[21:09:58] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:09:58] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:09:58] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[21:09:58] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[21:09:58] [Server thread/INFO]: [Scoreboard-revision] Enabling Scoreboard-revision vR4 1.1 RELEASE
+[21:09:59] [Server thread/INFO]: [Command Blocker] Enabling TreysCommandBlocker v1.1.1
+[21:09:59] [Server thread/INFO]: [0;36;1m+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=+[m
+[21:09:59] [Server thread/INFO]: [0;32;1mThere is a new update for[m
+[21:09:59] [Server thread/INFO]: [0;32;1mCommand Blocker[m
+[21:09:59] [Server thread/INFO]: [0;31;1mDownload at:[m
+[21:09:59] [Server thread/INFO]: [0;35;1mhttps://www.spigotmc.org/resources/5280/[m
+[21:09:59] [Server thread/INFO]: [0;36;1m+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=+[m
+[21:09:59] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.9
+[21:09:59] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[21:09:59] [Server thread/INFO]: [DeluxeChat] Enabling DeluxeChat v1.16.2
+[21:10:01] [Server thread/INFO]: [32m Downloaded from https://directleaks.to [0m
+[21:10:01] [Server thread/INFO]: [DeluxeChat] 1 formats loaded!
+[21:10:01] [Server thread/INFO]: [DeluxeChat] Loading DeluxeChat messages.yml
+[21:10:01] [Server thread/INFO]: [DeluxeChat] Detected Vault
+[21:10:01] [Server thread/INFO]: [DeluxeChat] Hooked into Vault
+[21:10:01] [Server thread/INFO]: ----------------------------
+[21:10:01] [Server thread/INFO]:      DeluxeChat Updater
+[21:10:01] [Server thread/INFO]:  
+[21:10:01] [Server thread/INFO]: You are running 1.16.2
+[21:10:01] [Server thread/INFO]: The latest version
+[21:10:01] [Server thread/INFO]: of DeluxeChat!
+[21:10:01] [Server thread/INFO]:  
+[21:10:01] [Server thread/INFO]: ----------------------------
+[21:10:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:10:01] [Server thread/INFO]: Done (7,135s)! For help, type "help" or "?"
+[21:10:01] [Server thread/INFO]: Timings Reset
+[21:10:01] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.5.6-b49)!
+[21:10:01] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[21:10:01] [Craft Scheduler Thread - 8/INFO]: [Essentials] §6Obteniendo información de versión...
+[21:10:01] [Craft Scheduler Thread - 1/INFO]: [ItemJoin] Hooked into { PlaceholderAPI, ProtocolLib, Citizens, Vault }
+[21:10:01] [Craft Scheduler Thread - 1/INFO]: [ItemJoin] 1 Custom item(s) loaded!
+[21:10:01] [Server thread/INFO]: [Citizens] Cargando a 2 NPCs.
+[21:10:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee [1.0.1]
+[21:10:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.2]
+[21:10:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault [1.7.0]
+[21:10:01] [Server thread/INFO]: [0;32;1m3 placeholder hook(s) registered! [0;33;22m3 placeholder hook(s) have an update available.[m
+[21:10:01] [Server thread/INFO]: [HolographicDisplays] Found a new version available: v3.0.0
+[21:10:01] [Server thread/INFO]: [HolographicDisplays] Download it on Bukkit Dev:
+[21:10:01] [Server thread/INFO]: [HolographicDisplays] dev.bukkit.org/projects/holographic-displays
+[21:10:01] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.2) is available at:
+[21:10:01] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[21:10:02] [Craft Scheduler Thread - 8/WARN]: [Essentials] §4Hay una nueva versión de EssentialsX disponible para descargar: §c2.19.7§4.
+[21:10:02] [Craft Scheduler Thread - 8/WARN]: [Essentials] §4Descárgala aquí:§c https://essentialsx.net/downloads.html?branch=stable
+[21:10:15] [Thread-14/INFO]: UUID of player Lan_hq is 98a3d384-168e-3858-94b9-2e1b8e0d802f
+[21:10:16] [Server thread/INFO]: Lan_hq[/127.0.0.1:57835] logged in with entity id 17 at ([world]0.4736691077338634, 70.0, 0.464310237890312)
+[21:10:54] [Server thread/INFO]: Lan_hq issued server command: /join
+[21:12:35] [Server thread/INFO]: Lan_hq lost connection: Internal Exception: java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
