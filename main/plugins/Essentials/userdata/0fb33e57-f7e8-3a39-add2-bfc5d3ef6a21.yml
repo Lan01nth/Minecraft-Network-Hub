@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1649906856825
+  login: 1649906492852
+money: '0'
+last-account-name: SosaaaJ
+logoutlocation:
+  world: f2bfd59b-e7f3-4fa1-bd81-4245dbb9fc5b
+  world-name: world
+  x: 0.4781013815127767
+  y: 70.0
+  z: 0.5034863629848145
+  yaw: 3.562744140625
+  pitch: -27.801624298095703

@@ -1,0 +1,3 @@
+&eBienvenido &a{PLAYER} &ea &a&lNetwork de regalo&f!
+&esuscribite a mi canal &c&lyoutube.com/c/ikl4b_
+&epuedes editar este mensaje en la carpeta &fplugins/essentials/motd.txt

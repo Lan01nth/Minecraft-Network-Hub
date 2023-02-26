@@ -1,0 +1,25 @@
+groups:
+  Usuario:
+    options:
+      default: true
+      prefix: '&e'
+    permissions:
+    - menu.servers
+    - modifyworld.*
+  Founder:
+    options:
+      prefix: '&8[&4Founder&8] &4'
+    inheritance:
+    - Usuario
+  VIP:
+    options:
+      prefix: '&e[&aVIP&e] &a'
+schema-version: 1
+users:
+  0fb33e57-f7e8-3a39-add2-bfc5d3ef6a21:
+    permissions:
+    - '*'
+    group:
+    - Founder
+    options:
+      name: SosaaaJ

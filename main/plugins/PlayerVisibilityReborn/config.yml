@@ -1,0 +1,36 @@
+# Config for Player Visibility Reborn by xDesireRage
+# The materials can be found here: https://goo.gl/k7D7Xk
+# You can get the colors from here: http://goo.gl/m6xrq2
+item:
+  activated:
+    material: INK_SACK 1 10
+    displayname: '&6Hide Players &7(Right Click)'
+    lore:
+    - '&7Click to &7toggle players!'
+  deactivated:
+    material: INK_SACK 1 8
+    displayname: '&6Show Players &7(Right Click)'
+    lore:
+    - '&7Click to &7toggle players!'
+  slot: 9
+  delay: 5
+world: world
+enabledWorlds:
+- world
+- hub
+messages:
+  prefix: '&6&l&oVanisher &8&l-'
+  consoleDeny: '%prefix% &fYou cannot do that from console!'
+  toggledON: '%prefix% &fPlayer visibility has been switched &7(&a&LON&7)'
+  toggledOFF: '%prefix% &fPlayer visibility has been switched &7(&C&LOFF&7)'
+  delay: '%prefix% &fPlease wait &6%time% &fbefore using again!'
+  noPerm: '%prefix% &fYou don''t have enough permissions to to this!'
+  invalidCmd: '%prefix% &fYou typed an invalid command, do /%cmd% for help.'
+  configReloaded: '%prefix% &fSuccessfully reloaded config!'
+  displayNameSet: "%prefix% &fDisplay name %type% set to &8\xc3\u201a\xc2\xbb &r%args%"
+  messageSet: "%prefix% &fMessage %type% set to &8\xc3\u201a\xc2\xbb &r%args%"
+miscellaneous:
+  joinItem: true
+  autoHideOnJoin: false
+  denyMovement: true
+  denyDrop: true

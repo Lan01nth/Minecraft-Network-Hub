@@ -1,0 +1,110 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 2
+npc:
+  '2':
+    metadata:
+      cached-skin-uuid: c1a2cca7-be26-4065-944b-da460e338f5d
+      cached-skin-uuid-name: sosaaaj
+    name: "\xa74\xa7lSosaaaJ"
+    uuid: e4066468-f584-4d60-a962-4ba566578b7c
+    traits:
+      owner:
+        uuid: 0fb33e57-f7e8-3a39-add2-bfc5d3ef6a21
+      spawned: true
+      speech: chat
+      location:
+        bodyYaw: -90.21538
+        world: world
+        x: '-7.5047'
+        y: '70.0'
+        z: '0.5198'
+        yaw: '-90.2154'
+        pitch: '-1.9341'
+      scoreboardtrait: {}
+      inventory: {}
+      type: PLAYER
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': '&fHola &e%player%&f, Muchas gracias por descargar mi servidor, puedes
+            apoyarme suscribiendote'
+          '1': '&fa mi canal de &cYouTube &eyoutube.com/c/ikl4b_'
+          '2': '&fpuedes borrar este npc con /npc remove'
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0': '&cServidor creado por'
+          '1': '&7(Click derecho para hablar)'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: fLo2VDkdOOlf/0IMA5Z3VnUWERZX8TVwZ85MrcnbqbuZ1ks2iGJVbG4yow2VjxpMUVD0f1uIvNufiF6G7pDxzmyrc2fWvw9CGYQBTRNM8eLsWoaTSFs76S8ecbYqzuX8qGd+dxQYZKGGGFaenyrDsDIUnPAg158m7P00DlL0kP7WkHQ8uQuS+VICU6StAERh4CiiaH1Romdlfhzbd2sfHnED4K4n/ykIwMhuhDWMCcmVG4JKNWSmtjeFS89p1G1cC3P4GHvkem1T6xI5Q+jHA2kVHoRBZLTetioXxMOaoPAwOw5TQOoXr8EbyfhWbQPcFE/5eB4ogJ8NzjVt9mIeVrtpOVxCRZyMfZawR83eTabocSLACuCgOdJzDiKac1ZWxNSP82nlZMv78mhBXfAF/ucw6F5Nc8i/HJ/kGWkFJfz0jC8Lzjf8k/Ar6Xo79jbf5JXerutgy8ue9VqoDHzW2xIv8EmwkiI3pRYQhQoYysf5SMWO6laSzj20sNtMXrAQylpkXLHD2rlNUlTlOPjiMcDxmT46H7p+vkZYY+TI9JfdUcx58DfmNk+wnIxMl9JncLylhmI6/QLWxh4E2fP/Fp6Rpd9mNOSO/eiTSsOb6Ts/vxbL03OpJ6nWTyxEnSkd7u4OKMBoNcI0og3wsNJHzdt2wB24dC153QA1pifQt20=
+        skinName: sosaaaj
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0OTkwNDY0NTUzMywKICAicHJvZmlsZUlkIiA6ICJjMWEyY2NhN2JlMjY0MDY1OTQ0YmRhNDYwZTMzOGY1ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb3NhYWFKIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdiZmQ4NWFlMzk0ZTNjM2E5M2JlNTIyNzI0YzhmYTlkODc1OTVmMjk1NTkzY2RlNDc1ZDNmNTU3NWU3ZjU2MzciCiAgICB9CiAgfQp9
+        updateSkins: false
+    traitnames: inventory,spawned,equipment,type,text,mounttrait,speech,owner,skintrait,scoreboardtrait,hologramtrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    metadata:
+      cached-skin-uuid: 2eefe837-9647-48eb-bdd8-e34ff09438d8
+      nameplate-visible: 'false'
+      cached-skin-uuid-name: byaz7
+    name: "\xa7aSurvival 1.8-1.18"
+    uuid: 09d11b6c-d364-4a42-8ecd-317cc4686c9b
+    traits:
+      owner:
+        uuid: 0fb33e57-f7e8-3a39-add2-bfc5d3ef6a21
+      spawned: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: server Survival
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      location:
+        bodyYaw: 179.60437
+        world: world
+        x: '0.5743'
+        y: '70.0'
+        z: '7.5544'
+        yaw: '179.6044'
+        pitch: '0.4208'
+      scoreboardtrait: {}
+      inventory: {}
+      type: PLAYER
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+        lines:
+          '0': '&7Click para conectarte'
+          '1': '&7&lConectados:&f %bungee_survival%'
+          '2': '&a&lSurvival &f(1.8-1.18)'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: bGpZe01diBJy2Kd4sxVsmo9RR7DQ+EWnjWNfrwbnx/R+NcRNMSHyb3UJrt2BdC5qM0lZ5FrsTqKS9976NIgNdU+ay9FOKnKbazjcIvZ+H4aIvbqVmyJKOKMdsshAZNLWvbvanxFJZwMMp894O/CBcaBHZXdQjsN9z5izhrEr/Vc65cJvOJTgqITknsvap7xwCFHhDIsnrw6y/9YcaYk0thsQnFRGtcJIsEgclX+/7F5ZX7BB81fHByPI1HVjMnbU5tW0YNv2875bV8QlbJtP+nNBIW5qUCSDAY5EGoDcb4CerXHF9bZDeMbaB9Hylx7Ww/CQR14xmP2rjZgTZFLPDnayuIVM2Pt0JDmpPU+q/lO8fIQ1tCjSY5znmpJWMFG5zOYiRu4DjzImf8bn2zy7K6bVbe4XyPF56Q2Fvl2V+NPtX1sCbs/9347NUVdfMNm0Fy8u70arp2vzLjsVnTBofOn+e2Y4vB0O1qrVgFej604cFmxs4nEVpPIbAool/uJbX9FcD0HgKHmOHpSCfKERnos6uKSIM4mympukWH1TWIGy9v1SAXMsTtfLEK7JeOLyok5z00wohWlYTmmYm47/d12TmI7uiWNreVig6YbqmoWYupbHaL4cTfv9rHgumR1iB3MWAnhKGFK0PnwGLf0kME6rxrUhoy/HX0FCx0mdmac=
+        skinName: byaz7
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0OTkwNjExMDUxMCwKICAicHJvZmlsZUlkIiA6ICIyZWVmZTgzNzk2NDc0OGViYmRkOGUzNGZmMDk0MzhkOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJCeWF6NyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80N2FmMzNhOGNlMmQwODRkMjNiZjlkMjM1NzRkYjQyMDIyODA2MjRmNTlhM2U1NzQwMTMzZjIzOTg5NDBiNWUwIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+        updateSkins: false
+    traitnames: spawned,inventory,equipment,type,commandtrait,mounttrait,scoreboardtrait,owner,skintrait,hologramtrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

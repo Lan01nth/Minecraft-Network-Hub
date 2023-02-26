@@ -1,0 +1,12 @@
+'1':
+  location: world, 0.528, 73.000, 3.473
+  lines:
+  - '&aHola &e{player} &abienvenido a'
+  - '&a&lNetwork de Regalo'
+  - '&7youtube.com/c/ikl4b_'
+'2':
+  location: world, 6.507, 72.491, 0.407
+  lines:
+  - '&aTodos los mensajes son'
+  - '&acompletamente configurables'
+  - '&7plugins/holographicdisplay/database.yml'

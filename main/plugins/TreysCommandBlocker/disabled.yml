@@ -1,0 +1,113 @@
+# Allows you set your own disabled commands! :D
+# Placeholders are %colon% -> : and %player% -> player's name
+# Make a command only disabled in some worlds by doing:
+#DisabledCommands:
+#    Plugins:
+#        Worlds:
+#        - world
+#
+# Allows you to perform console and player commands!
+# Placeholders are %player% -> player's name, %username% -> player's username,
+#   and %command% -> disabled command
+#DisabledCommands:
+#    Plugins:
+#        PlayerCommands:
+#        - say this allows me to perform player commands!
+#        - say I, %player%, was bad and tried to execute %command%
+#        ConsoleCommands:
+#        - say this allows me to perform console commands!
+#
+# Make a command allowed to tab complete by doing:
+#DisabledCommands:
+#   Plugins:
+#       NoTabComplete: false
+#
+## If you have two of the same command, the one nearest to the top will be used! ##
+DisabledCommands:
+    Plugins:
+        Message: 'Plugins (2): &aHub&f,&a Base'
+        Permission: cb.allow.plugins
+    Pl:
+        Message: 'Plugins (2): &aHub&f,&a Base'
+        Permission: cb.allow.plugins
+    Bukkit%colon%plugins:
+        Message: 'Plugins (2): &aHub&f,&a Base'
+        Permission: cb.allow.plugins
+    Bukkit%colon%pl:
+        Message: 'Plugins (2): &aHub&f,&a Base'
+        Permission: cb.allow.plugins
+    Help:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.help
+    ?:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.help
+    Bukkit%colon%help:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.help
+    Bukkit%colon%?:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.help
+    Minecraft%colon%?:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.help
+    Minecraft%colon%help:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.help
+    Version:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.version
+    Ver:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.version
+    Icanhasbukkit:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.version
+    Bukkit%colon%ver:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.version
+    Bukkit%colon%version:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.version
+    About:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.version
+    Bukkit%colon%about:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.version
+    Me:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.me
+    Minecraft%colon%me:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.me
+    Reload:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.reload
+    Rl:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.reload
+    Bukkit%colon%rl:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.reload
+    Bukkit%colon%reload:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.reload
+    Restart:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.restart
+    Stop:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.stop
+    Op:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.op
+    Minecraft%colon%op:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.op
+    Deop:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.deop
+    Minecraft%colon%deop:
+        Message: '&fComando desconocido.'
+        Permission: cb.allow.deop

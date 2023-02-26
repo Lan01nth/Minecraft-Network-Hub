@@ -1,0 +1,41 @@
+groups:
+  Usuario:
+    options:
+      default: true
+      prefix: '&e'
+    permissions:
+    - menu.servers
+    - modifyworld.*
+  VIP:
+    options:
+      prefix: '&8(&6VIP&8)&6 '
+      default: 'false'
+      rank: '4'
+    permissions:
+    - nte.vip
+    inheritance:
+    - Usuario
+  VIP+:
+    options:
+      prefix: '&8(&6VIP+&8)&6 '
+      default: 'false'
+      rank: '4'
+    permissions:
+    - nte.vip+
+    inheritance:
+    - Usuario
+  Founder:
+    options:
+      prefix: '&8[&4Founder&8] &4'
+    inheritance:
+    - Usuario
+    permissions:
+    - nte.founder
+schema-version: 1
+users:
+  0fb33e57-f7e8-3a39-add2-bfc5d3ef6a21:
+    permissions: []
+    group:
+    - VIP
+    options:
+      name: SosaaaJ

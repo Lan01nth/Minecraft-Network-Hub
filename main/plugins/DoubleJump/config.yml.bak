@@ -1,0 +1,22 @@
+# =------------------------------------=
+#  [        DoubleJump by AnyOD        ]
+# =------------------------------------=
+# If you want to disable cooldown write
+# "0" in timeinsec !
+# --------------------------------------
+# Write the cooldown time in seconds:
+Cooldown:
+  timeinsec: 0
+  advanced: '&cYou need to wait %seconds% seconds before doublejumping again'
+Velocity: 1.5
+EnabledInWorlds:
+- world
+- exampleworld1
+- exampleworld2
+EnableParticles: false
+ParticleName: MAGIC_CRIT
+EnableSounds: false
+SoundName: LEVEL_UP
+Messages:
+  toggleon: '&aDoublejump toggled on!'
+  toggleoff: '&cDoublejump toggled off!'

@@ -1,0 +1,21 @@
+Groups:
+  Owner:
+    Permission: nte.owner
+    Prefix: '&8[&4Founder&8] &f'
+    Suffix: '&f'
+    SortPriority: 1
+  VIP+:
+    Permission: nte.vip+
+    Prefix: '&6[VIP+] &f'
+    Suffix: '&f'
+    SortPriority: 5
+  VIP:
+    Permission: nte.vip
+    Prefix: '&6[VIP] &f'
+    Suffix: '&f'
+    SortPriority: 6
+  Usuario:
+    Permission: nte.default
+    Prefix: '&f'
+    Suffix: '&f'
+    SortPriority: 7
